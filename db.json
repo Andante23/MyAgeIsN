@@ -1,0 +1,13 @@
+{
+  "post": [
+    {
+      "id": "c922c0c0-3f99-43c8-a190-66028444aeb1",
+      "nickname": "김수미",
+      "gender": "남",
+      "age": 25,
+      "contentWon": "테스트",
+      "contentTwo": "테스트",
+      "count": 0
+    }
+  ]
+}

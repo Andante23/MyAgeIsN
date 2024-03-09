@@ -10,17 +10,11 @@
 
 > 기능 
 
- 내가 n의 나이일때  하고 싶은 것  등록하기(자세한 것은 아래 참고) 
+- 내가 n의 나이일때  하고 싶은 것  등록하기(자세한 것은 아래 참고) 
    - 당신의 나이가 n의 나이라면 
    - 나에게 1억이 있다면 
   
-<br>
- 
- `좋아요`를  받은 답글 순으로 리스트 보여주기
-
-<br>
- 
- `날짜순` 으로 정렬해보기 
+  
 
 
 
@@ -33,8 +27,6 @@
 
     공간을 마련하기로 했습니다.
 
-  <br>
-
  - styled-components
 
     스타일링을  js방식으로 한다는 점에서 js와 일관성이 있었습니다.그리고 props를 
@@ -43,7 +35,7 @@
   
     니다.
 
- -  React-Toastify 
+  -  React-Toastify 
    
     폼 제출 여부를 물어볼때 , 내용을 삭제할 때 , 내용을 수정할때  확인 버튼 누르고
 
@@ -55,6 +47,10 @@
 
     페이지들간에 이동을 보여주기 위해서  해당 라이브러리를 선택했습니다. 
 
+  
+  - React-query
+  
+   서버와 통신하여 데이터를  가져오는 것  , 가져오는 도중에 에러가 나올때의 흐름을  알고 싶어서 이 라이브러리를 사용하게 되었습니다. 
 
 
   > 초기 초안 
@@ -65,12 +61,31 @@
  > 사용 스택 
 
 
-<img height="32" width="32" src="https://cdn.simpleicons.org/React" />
- 
-<img height="32" width="32" src="https://cdn.simpleicons.org/TypeScript" />
+- 언어 
+  
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=React&logoColor=61DAFB"/>
+
+<img src="https://img.shields.io/badge/React Query-FFFFFF?style=flat&logo=React Query&logoColor=FF4154"/>
 
 
+- 라이브러리 (`위 참고`)
 
+- 버전 관리 도구 
+
+<img src="https://img.shields.io/badge/Github-181717?style=flat&logo=Github&logoColor=#181717"/>
+
+
+> 기타 
+
+
+ - 깃 커밋 컨벤션 ( <a href= "https://velog.io/@archivvonjang/Git-Commit-Message-Convention">참고</a>)
+
+  위 사이트를 참고하여 작성합니다.
+
+  그리고 커밋 컨벤션을 작성하게 된 이유는 컨벤션은 개발자들간에 기본적인 예의이며 , 상대방에게 정확한 메세지를 남길수 있기 때문입니다. 
+   
+
+  
 
 
 

@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "../pages/HomePage";
 import ListPage from "../pages/ListPage";
-import SubmitFormPage from "../pages/SubmitFormPage";
+
 import DetailPage from "../pages/DetailPage";
 function Router() {
   return (
@@ -16,7 +16,6 @@ function Router() {
         */}
           <Route path="/" element={<HomePage />} />
           <Route path="/list" element={<ListPage />} />
-          <Route path="/form" element={<SubmitFormPage />} />
           <Route path="/detail/:id" element={<DetailPage />} />
           <Route />
         </Routes>
