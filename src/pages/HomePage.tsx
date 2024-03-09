@@ -47,7 +47,7 @@ const HomePage: React.FC = () => {
     },
     onSettled: () => {
       queryClient.invalidateQueries({
-        queryKey: ["post"],
+        queryKey: [`${import.meta.env.VITE_MUTATION_KEY}`],
       });
     },
   });

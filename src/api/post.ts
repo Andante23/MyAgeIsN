@@ -7,7 +7,7 @@ import Post from "../types/Post"
 export async function getData():Promise<Post[]>  {
 
 
-    const response = await axios.get(`http://localhost:4000/post`);
+    const response = await axios.get(`${import.meta.env.VITE_API_SERVER_URL}`);
 
     return response.data
 
@@ -16,7 +16,7 @@ export async function getData():Promise<Post[]>  {
 
 export async function postData(newPost:Post) {
 
-    await axios.post(`http://localhost:4000/post`,newPost);
+    await axios.post(`${import.meta.env.VITE_API_SERVER_URL}`,newPost);
 }
 
 
